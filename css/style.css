@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+
+html,body {
+    margin: 0;
+    background-color: #784BA0;
+    background-image: linear-gradient(225deg,#784BA0 50% , #784BA0 50%, #2B86C5 100%);
+    font-family: 'Poppins', sans-serif;
+    color: #23ea19;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-size: 20px;
+}
+#estrattore button, #partita button{
+    background-color: rgb(82, 4, 138);
+    width: 300px;
+    height: 50px;
+    border: 2px rgb(240, 236, 243) solid;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #23ea19;
+    
+}
+
+#estrattore button:hover, #partita button:hover{
+    background-color: chartreuse;
+    transition: 0.5s;
+    color: #0c23ed;
+}
+
+#board {
+    display: flexbox;
+    margin: 10px 10px 50px 10px;
+    padding: 30px;
+    height: 300px; 
+
+}
+
+#board div , #schede div{
+    padding: 5px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgb(212, 230, 217);
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.marcato{
+    background-color: rgb(38, 223, 47);
+    box-shadow: 5px 5px 10px rgb(235, 232, 232);
+    border-radius: 50%;
+    color: white;
+}
+
+
+#schede section {
+    display: inline-block;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding: 20px;
+    border: 3px solid rgb(239, 232, 244);
+    background-color:  rgb(38, 223, 47);
+    border-radius: 30px;
+    color: white;
+}
+
+#partita{
+    vertical-align: bottom;  
+    margin-bottom: 92px;
+}
+
+#partita input , #partita button{
+    margin-left: 20px;
+}
+
+#partita button{
+    font-size: 20px;
+    width: 154px;
+    height:30px ;
+}
+
+#partita input{
+    font-family: 'Poppins', sans-serif;
+    width: 50px;
+    text-align: center;
+    border-radius: 30px;
+
+}
+
+label{
+    font-size: 20px;  
+}
+
+
